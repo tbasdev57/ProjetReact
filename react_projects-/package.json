@@ -1,0 +1,26 @@
+{
+  "name": "react_projects",
+  "version": "1.0.0",
+  "description": "Projets de formation en React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/km229/react_projects.git"
+  },
+  "keywords": [
+    "React",
+    "Learning"
+  ],
+  "author": "Kévin MORICEAU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/km229/react_projects/issues"
+  },
+  "homepage": "https://github.com/km229/react_projects#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.0"
+  }
+}

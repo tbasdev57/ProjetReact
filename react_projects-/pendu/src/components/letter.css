@@ -1,0 +1,23 @@
+.letter {
+  outline: 1px solid silver;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  cursor: default;
+  font: 400 15px/25px "Segoe UI", sans-serif;
+}
+.letter.clicked {
+  text-decoration: line-through;
+  background: silver;
+}
+.letter.clicked:hover {
+  cursor: not-allowed;
+}
+.letter.not_clicked:hover {
+  cursor: pointer;
+}
+.letter > .symbol {
+  margin: auto;
+}
+/*# sourceMappingURL=letter.css.map */

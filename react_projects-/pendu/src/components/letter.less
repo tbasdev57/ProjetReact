@@ -1,0 +1,25 @@
+.letter {
+	outline:   1px solid silver;
+	margin:    2px;
+	display:   flex;
+	flex-wrap: wrap;
+	flex: 1;
+	cursor:    default;
+	font: 400 15px/25px "Segoe UI", sans-serif;
+	&.clicked {
+		text-decoration: line-through;
+		background: silver;
+		&:hover {
+			cursor: not-allowed;
+		}
+	}
+
+	&.not_clicked {
+		&:hover{
+			cursor: pointer;
+		}
+
+	}
+
+	> .symbol {margin: auto;}
+}

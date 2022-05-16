@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: #000;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h1,
+input,
+button {
+  margin-bottom: 10px;
+}
+.pendu {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.pendu .word {
+  width: 100%;
+  font: 400 30px/60px 'Segoe UI', sans-serif;
+  text-align: center;
+}
+.pendu .content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.pendu .content .word {
+  letter-spacing: 10px;
+}
+.pendu .display {
+  margin-bottom: 10px;
+}
+.pendu form {
+  display: flex;
+  flex-flow: column wrap;
+}
+.pendu form > * {
+  margin-bottom: 10px;
+}
+.pendu form label > input {
+  margin-left: 10px;
+}
+/*
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+*/
+/*# sourceMappingURL=App.css.map */
